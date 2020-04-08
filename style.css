@@ -14,14 +14,10 @@ html
 
 .debut
 {
-  background-image: url(images/fond23.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 20%;
+  padding-top: 5%;
   color: white;
 }
 
@@ -102,8 +98,124 @@ nav ul li a:hover
 .moi
 {
   display: flex;
+  flex-direction: column;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 5%;
+  color: white;
+}
+
+.blanc
+{
+  color: white;
+}
+.vert
+{
+  color: #afef00;
+}
+.bleu
+{
+  color: #00b0fb;
+}
+.rouge
+{
+  color: #f60029;
+}
+.violet
+{
+  color: #780afe;
+}
+
+.formation, .experience, .langues
+{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-right: 25%;
+  margin-left: 25%;
+  color: white;
+  margin-top: 2%;
+}
+
+h3
+{
+  font-size: 1.2em;
+  padding-bottom: 2%;
+}
+
+.langue_pies
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.piefr
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #101010;
+  background-image: linear-gradient(to right, transparent 50%, #00b0fb 0);
+}
+
+.piefr::before
+{
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background: #00b0fb;
+  border-radius: 0 100% 100% 0 /50%;
+  transform-origin: left;
+  transform: rotate(.35turn); 
+}
+.pieang
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #101010;
+  background-image: linear-gradient(to right, transparent 50%, #afef00 0);
+}
+
+.pieang::before
+{
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background: #afef00;
+  border-radius: 0 100% 100% 0 /50%;
+  transform-origin: left;
+  transform: rotate(.1turn); 
+}
+.pieall
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #101010;
+  background-image: linear-gradient(to right, transparent 50%, #780afe 0);
+}
+
+.pieall::before
+{
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background: #101010;
+  border-radius: 0 100% 100% 0 /50%;
+  transform-origin: left;
+  transform: rotate(.4turn); 
+}
+
+
+.ang, .fr, .all
+{
+  display: flex;
+  align-items: flex-end;
 }
