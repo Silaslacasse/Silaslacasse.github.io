@@ -127,7 +127,7 @@ nav ul li a:hover
   color: #780afe;
 }
 
-.formation, .experience, .langues
+.formation, .experience, .langues, .competences
 {
   display: flex;
   width: 50%;
@@ -214,8 +214,215 @@ h3
 }
 
 
+
 .ang, .fr, .all
 {
   display: flex;
   align-items: flex-end;
 }
+
+
+
+.competences li
+{
+  margin: 20px 0;
+}
+
+
+.htmlc
+{
+  color: #afef00;
+}
+
+.pythonc
+{
+  color: white;
+}
+
+.javac
+{
+  color: #780afe;
+}
+
+.cc
+{
+  color: #f60029;
+}
+
+.sqlc
+{
+  color: #00b0fb;
+}
+
+
+
+.barhtml{
+  background-color: #353b48;
+  display: flex;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #afef00;
+}
+.barpython{
+  background-color: #353b48;
+  display: flex;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 4px white;
+}
+.barjava{
+  background-color: #353b48;
+  display: flex;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #780afeb3;
+}
+.barc{
+  background-color: #353b48;
+  display: flex;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #f60029b3;
+}
+.barsql{
+  background-color: #353b48;
+  display: flex;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #00b0fbb3;
+}
+
+.barhtml span
+{
+  height: 2px;
+  float: left;
+  background-color: #afef00;
+}
+
+.barjava span
+{
+  height: 2px;
+  float: left;
+  background-color: #780afe;
+}
+.barpython span
+{
+  height: 2px;
+  float: left;
+  background-color: white;
+}
+.barc span
+{
+  height: 2px;
+  float: left;
+  background-color: #f60029;
+}
+.barsql span
+{
+  height: 2px;
+  float: left;
+  background-color: #00b0fb;
+}
+
+.html
+{
+  width: 65%;
+  animation: html 1s;
+}
+.python
+{
+  width: 30%;
+  animation: python 0.5s;
+}
+.java
+{
+  width: 20%;
+  animation: java 1.5s;
+}
+.sql
+{
+  width: 20%;
+  animation: sql 2.5s;
+}
+.c
+{
+  width: 25%;
+  animation: c 2s;
+}
+
+@keyframes html {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 65%;
+  }
+}
+
+@keyframes css {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 60%;
+  }
+}
+
+@keyframes python {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 30%;
+  }
+}
+
+@keyframes java {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 20%;
+  }
+}
+
+@keyframes c {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 25%;
+  }
+}
+
+@keyframes sql {
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 20%;
+  }
+}
+
