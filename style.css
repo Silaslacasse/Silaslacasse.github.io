@@ -18,7 +18,7 @@ html
   align-items: center;
   flex-direction: column;
   padding-top: 5%;
-  color: white;
+  color: #92999f;
 }
 
 
@@ -67,7 +67,7 @@ nav ul li
 
 nav ul li:nth-child(1) a
 { 
-  color:  white;
+  color:  #92999f;
 }
 nav ul li:nth-child(2) a
 { 
@@ -75,15 +75,15 @@ nav ul li:nth-child(2) a
 }
 nav ul li:nth-child(3) a
 { 
-  color: #00b0fb;
+  color: #466c83;
 }
 nav ul li:nth-child(4) a
 { 
-  color: #afef00;
+  color: #82a376;
 }
 nav ul li:nth-child(5) a
 { 
-  color: #780afe;
+  color: #ac85c8;
 }
 
 nav ul li a:hover
@@ -99,20 +99,20 @@ nav ul li a:hover
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 5%;
-  color: white;
+  color: #92999f;
 }
 
 .blanc
 {
-  color: white;
+  color: #92999f;
 }
 .vert
 {
-  color: #afef00;
+  color: #82a376;
 }
 .bleu
 {
-  color: #00b0fb;
+  color: #466c83;
 }
 .orange
 {
@@ -120,7 +120,7 @@ nav ul li a:hover
 }
 .violet
 {
-  color: #780afe;
+  color: #ac85c8;
 }
 
 .formation, .experience, .langues, .competences
@@ -130,7 +130,7 @@ nav ul li a:hover
   flex-direction: column;
   margin-right: 25%;
   margin-left: 25%;
-  color: white;
+  color: #92999f;
   margin-top: 2%;
 }
 
@@ -154,7 +154,7 @@ h3
   height: 70px;
   border-radius: 50%;
   background-color: #101010;
-  background-image: linear-gradient(to right, transparent 50%, #00b0fb 0);
+  background-image: linear-gradient(to right, transparent 50%, #466c83 0);
 }
 
 .piefr::before
@@ -163,7 +163,7 @@ h3
   display: block;
   margin-left: 50%;
   height: 100%;
-  background: #00b0fb;
+  background: #466c83;
   border-radius: 0 100% 100% 0 /50%;
   transform-origin: left;
   transform: rotate(.35turn); 
@@ -174,7 +174,7 @@ h3
   height: 70px;
   border-radius: 50%;
   background-color: #101010;
-  background-image: linear-gradient(to right, transparent 50%, #afef00 0);
+  background-image: linear-gradient(to right, transparent 50%, #82a376 0);
 }
 
 .pieang::before
@@ -183,7 +183,7 @@ h3
   display: block;
   margin-left: 50%;
   height: 100%;
-  background: #afef00;
+  background: #82a376;
   border-radius: 0 100% 100% 0 /50%;
   transform-origin: left;
   transform: rotate(.1turn); 
@@ -194,7 +194,7 @@ h3
   height: 70px;
   border-radius: 50%;
   background-color: #101010;
-  background-image: linear-gradient(to right, transparent 50%, #780afe 0);
+  background-image: linear-gradient(to right, transparent 50%, #ac85c8 0);
 }
 
 .pieall::before
@@ -227,17 +227,17 @@ h3
 
 .htmlc
 {
-  color: #afef00;
+  color: #82a376;
 }
 
 .pythonc
 {
-  color: white;
+  color: #92999f;
 }
 
 .javac
 {
-  color: #780afe;
+  color: #ac85c8;
 }
 
 .cc
@@ -247,7 +247,7 @@ h3
 
 .sqlc
 {
-  color: #00b0fb;
+  color: #466c83;
 }
 
 
@@ -259,7 +259,7 @@ h3
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 4px #afef00;
+  box-shadow: 0 0 4px #82a376;
 }
 .barpython{
   background-color: #353b48;
@@ -268,7 +268,7 @@ h3
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 4px white;
+  box-shadow: 0 0 4px #92999f;
 }
 .barjava{
   background-color: #353b48;
@@ -277,7 +277,7 @@ h3
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 4px #780afeb3;
+  box-shadow: 0 0 4px #ac85c8b3;
 }
 .barc{
   background-color: #353b48;
@@ -295,27 +295,27 @@ h3
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 4px #00b0fbb3;
+  box-shadow: 0 0 4px #466c83b3;
 }
 
 .barhtml span
 {
   height: 2px;
   float: left;
-  background-color: #afef00;
+  background-color: #82a376;
 }
 
 .barjava span
 {
   height: 2px;
   float: left;
-  background-color: #780afe;
+  background-color: #ac85c8;
 }
 .barpython span
 {
   height: 2px;
   float: left;
-  background-color: white;
+  background-color: #92999f;
 }
 .barc span
 {
@@ -327,7 +327,7 @@ h3
 {
   height: 2px;
   float: left;
-  background-color: #00b0fb;
+  background-color: #466c83;
 }
 
 .html
