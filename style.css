@@ -32,10 +32,6 @@ html
   border-color: grey;
 }
 
-.debut h2
-{
-
-}
 
 nav ul li a
 {
@@ -75,7 +71,7 @@ nav ul li:nth-child(1) a
 }
 nav ul li:nth-child(2) a
 { 
-  color: #afef00;
+  color: #CC9356;
 }
 nav ul li:nth-child(3) a
 { 
@@ -83,7 +79,7 @@ nav ul li:nth-child(3) a
 }
 nav ul li:nth-child(4) a
 { 
-  color: #f60029;
+  color: #afef00;
 }
 nav ul li:nth-child(5) a
 { 
@@ -118,9 +114,9 @@ nav ul li a:hover
 {
   color: #00b0fb;
 }
-.rouge
+.orange
 {
-  color: #f60029;
+  color: #CC9356;
 }
 .violet
 {
@@ -246,7 +242,7 @@ h3
 
 .cc
 {
-  color: #f60029;
+  color: #CC9356;
 }
 
 .sqlc
@@ -290,7 +286,7 @@ h3
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 4px #f60029b3;
+  box-shadow: 0 0 4px #CC9356b3;
 }
 .barsql{
   background-color: #353b48;
@@ -325,7 +321,7 @@ h3
 {
   height: 2px;
   float: left;
-  background-color: #f60029;
+  background-color: #CC9356;
 }
 .barsql span
 {
