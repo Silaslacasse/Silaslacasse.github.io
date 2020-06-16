@@ -149,7 +149,7 @@ nav
   color: #8a4646;
 }
 
-.formation, .experience, .langues, .competences
+.formation, .experience, .langues, .competences, .realisations
 {
   display: flex;
   width: 50%;
@@ -159,6 +159,20 @@ nav
   color: #92999f;
   margin-top: 2%;
 }
+
+.imgsite
+{
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 5%;
+
+}
+.realisations > p
+{
+  margin-left: 20%;
+}
+
 
 li img
 {
